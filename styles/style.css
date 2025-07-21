@@ -26,20 +26,26 @@ section{
   /* line-height: 70px; */
 }
 
-
+.client-area{
+  height: 550px;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url('../images/slider-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  border-radius: 10px;
+}
 
 
 
 
 
 @media screen and (max-width:576px) {
-  header{
+  header,
+  main{
     width: 90%;
   }
   nav{
     flex-direction: column;
-  }
-  .hero-container{
-    /* display: none; */
   }
 }
